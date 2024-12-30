@@ -34,6 +34,7 @@ final products = [
 ];
 
 // dummy cart item only
+// data will be added dynamically into providers
 final cart = [
   {
     'id': '0',
