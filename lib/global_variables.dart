@@ -32,6 +32,8 @@ final products = [
     'sizes': [8, 9, 10],
   },
 ];
+
+// dummy cart item only
 final cart = [
   {
     'id': '0',

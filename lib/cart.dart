@@ -48,6 +48,8 @@ class Cart extends StatelessWidget {
                                 )),
                             TextButton(
                                 onPressed: () {
+
+                                  //can also written as
                                   // context.read<CartProvider>().removeProduct(cartitem);
                                   Provider.of<CartProvider>(context,listen: false).removeProduct(cartitem);
                                   Navigator.of(context).pop();
